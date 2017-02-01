@@ -1,0 +1,39 @@
+{
+  "name": "armonia",
+  "version": "1.0.0",
+  "description": "Cross platform music player",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --profile --colors --display-error-details --display-cached",
+    "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
+    "start": "electron app"
+  },
+  "keywords": [
+    "armonia",
+    "music",
+    "player",
+    "electron",
+    "linux",
+    "angular"
+  ],
+  "author": "Prashanth",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/angular": "^1.6.3",
+    "@types/core-js": "^0.9.35",
+    "electron": "^1.4.15",
+    "ts-loader": "^2.0.0",
+    "typescript": "^2.1.5",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "@angular/common": "^2.4.5",
+    "@angular/compiler": "^2.4.5",
+    "@angular/core": "^2.4.5",
+    "@angular/platform-browser": "^2.4.5",
+    "@angular/platform-browser-dynamic": "^2.4.5",
+    "reflect-metadata": "^0.1.9",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.7.6"
+  }
+}
