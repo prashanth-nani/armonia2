@@ -6,8 +6,6 @@
     "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
     "start": "electron app"
   },
-  "author": "Prashanth",
-  "license": "MIT",
   "devDependencies": {
     "@types/angular": "^1.6.3",
     "@types/core-js": "^0.9.35",
@@ -25,5 +23,15 @@
     "reflect-metadata": "^0.1.9",
     "rxjs": "^5.1.0",
     "zone.js": "^0.7.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prashanth-nani/armonia2.git"
+  },
+  "bugs": {
+    "url" : "https://github.com/prashanth-nani/armonia2/issues",
+    "email" : "posttoprashanth@gmail.com"
+  },
+  "author": "Prashanth",
+  "license": "MIT"
 }
