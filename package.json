@@ -1,21 +1,11 @@
 {
   "name": "armonia",
   "version": "1.0.0",
-  "description": "Cross platform music player",
-  "main": "index.js",
   "scripts": {
     "build": "webpack --progress --profile --colors --display-error-details --display-cached",
     "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
     "start": "electron app"
   },
-  "keywords": [
-    "armonia",
-    "music",
-    "player",
-    "electron",
-    "linux",
-    "angular"
-  ],
   "author": "Prashanth",
   "license": "MIT",
   "devDependencies": {

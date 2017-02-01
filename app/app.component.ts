@@ -5,5 +5,5 @@ import { Component } from '@angular/core';
     template: `<h1>Armonia</h1>`
 })
 export class ArmoniaAppComponent{
-
+    
 }

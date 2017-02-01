@@ -1,10 +1,20 @@
 var path = require('path');
 
 module.exports = {
-  entry: './app/app.js',
+  entry: {
+    'vendor': [
+      'zone.js',
+      'reflect-metadata',
+      'rxjs',
+      '@angular/core'
+    ],
+    'app': './app/main'
+  },
   output: {
     path: path.resolve(__dirname, 'app'),
-    filename: 'bundle.js'
+    filename: '[name].js',
+    sourceMapFilename: '[name].js.map',
+    chunkFilename: '[id].chunk.js'
   },
   module: {
     rules: [

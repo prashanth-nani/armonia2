@@ -1,8 +1,16 @@
 {
   "name": "armonia",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "description": "Cross platform music player",
+  "main": "index.js",
+  "keywords": [
+    "armonia",
+    "music",
+    "player",
+    "electron",
+    "linux",
+    "angular"
+  ],
   "author": "Prashanth",
   "license": "MIT"
 }
