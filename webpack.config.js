@@ -6,14 +6,13 @@ module.exports = {
     'vendor': [
       'zone.js',
       'reflect-metadata',
-      'rxjs',
-      '@angular/core'
+      'rxjs'
     ],
     'app': './app/main'
   },
   output: {
     path: path.resolve(__dirname, 'app'),
-    filename: '[name].js',
+    filename: '[name]-bundle.js',
     sourceMapFilename: '[name].js.map',
     chunkFilename: '[id].chunk.js'
   },
