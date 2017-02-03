@@ -1,9 +1,9 @@
 const path = require('path');
-const electron = require('electron');
-const app = electron.app;
-const BrowserWindow = electron.BrowserWindow;
+const {app, BrowserWindow} = require('electron');
 
-var mainWindow = null;
+let mainWindow = null;
+console.log(process.env);
+
 app.on('ready', function(){
     mainWindow = new BrowserWindow();
 

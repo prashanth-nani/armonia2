@@ -1,0 +1,2 @@
+proxy="http://edcguest:edcguest@172.31.102.29:3128"
+rejectUnauthorized=false

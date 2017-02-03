@@ -4,14 +4,16 @@
   "scripts": {
     "build": "tsc && webpack --progress --profile --colors --display-error-details --display-cached",
     "watch": "tsc && webpack --watch --progress --profile --colors --display-error-details --display-cached",
-    "start": "electron app"
+    "start": "electron dist"
   },
   "devDependencies": {
     "@types/angular": "^1.6.3",
     "@types/core-js": "^0.9.35",
+    "@types/electron": "^1.4.31",
     "electron": "^1.4.15",
     "ts-loader": "^2.0.0",
     "typescript": "^2.1.5",
+    "typings": "^2.1.0",
     "webpack": "^2.2.1"
   },
   "dependencies": {
@@ -29,8 +31,8 @@
     "url": "https://github.com/prashanth-nani/armonia2.git"
   },
   "bugs": {
-    "url" : "https://github.com/prashanth-nani/armonia2/issues",
-    "email" : "posttoprashanth@gmail.com"
+    "url": "https://github.com/prashanth-nani/armonia2/issues",
+    "email": "posttoprashanth@gmail.com"
   },
   "author": "Prashanth",
   "license": "MIT"

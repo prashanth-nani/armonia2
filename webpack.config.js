@@ -8,10 +8,10 @@ module.exports = {
       'reflect-metadata',
       'rxjs'
     ],
-    'app': './app/main'
+    'app': './dist/main'
   },
   output: {
-    path: path.resolve(__dirname, 'app'),
+    path: path.resolve(__dirname, 'dist'),
     filename: '[name]-bundle.js',
     sourceMapFilename: '[name].js.map',
     chunkFilename: '[id].chunk.js'
